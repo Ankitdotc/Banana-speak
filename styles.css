@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --yellow400: #FBBF24;
+    --truegray900:#171717;
+}
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin:0%;
+    background-color: var(--#FCD34D);
+    background-image: url("http://www.pngmagic.com/product_images/light-yellow-background.jpg");
+    display: block center;
+    text-align: center;
+    background-repeat: repeat;
+
+}
+
+.header{
+    background-color: var(--#FBBF24);
+    margin-bottom: 1rem;
+    height: 50px;
+    text-align: center bold;
+    text-align: center;
+    opacity: 80%;
+}
+
+.navigation{
+    max-width: 600px;
+    margin: auto;   
+    text-align: center;
+    padding: 0.5rem;
+}
+
+
+
+.body-container{
+    max-width: 600px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    height:100%;
+    padding: 4rem;
+    margin: auto;
+    text-align: center;
+}
+
+textarea{
+    box-sizing: border-box;
+    display: block;
+    width: 85%;
+    min-height: 20vh;
+    margin: 2rem auto;
+    font-size: 1.25rem;
+    font-family:inherit;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+button{
+    background-color: var(--yellow400);
+    display: block;
+    border-radius:0.5rem;
+    margin: 1rem auto 2rem auto;
+    padding:1rem 2rem;
+    font-family: inherit;
+    font-size: 1rem;
+    
+}
+
+#txt-output{
+    box-sizing: border-box;
+    /* display: block; */
+    width: 85%;
+    min-height: 15vh;
+    max-height: 20vh;
+    overflow: scroll;
+    margin: 0rem  auto 2rem auto;
+    font-size: 1.25rem;
+    font-family:inherit;
+    /* border-radius: 0.5rem; */
+    border: 1px solid var(--#9CA3AF);
+    padding: 0.5rem;
+    background-color: white;
+}
+
+.txt-message{
+    background-color: var(--yellow400);
+    border-radius:2rem;
+    padding:1rem 2rem;
+    font-family: inherit;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0rem auto 2rem auto;
+    width: 60%;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
