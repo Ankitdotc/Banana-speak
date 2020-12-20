@@ -16,35 +16,10 @@ body{
 
 }
 
-.header{
-    background-color: var(--#FBBF24);
-    margin-bottom: 1rem;
-    height: 50px;
-    text-align: center bold;
-    text-align: center;
-    opacity: 80%;
-}
-
-.navigation{
-    max-width: 600px;
-    margin: auto;   
-    text-align: center;
-    padding: 0.5rem;
-}
 
 
 
-.body-container{
-    max-width: 600px;
-    
-    display: flex;
-    flex-direction: column;
-    
-    height:100%;
-    padding: 4rem;
-    margin: auto;
-    text-align: center;
-}
+
 
 textarea{
     box-sizing: border-box;
